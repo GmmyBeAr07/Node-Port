@@ -4,7 +4,6 @@
 
     <h2>Project</h2>
 
-
     <div class="row" style="margin: auto">
       <div class="col  d-flex justify-content-center m-5">
 <div class="card" style="width: 25rem;">

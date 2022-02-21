@@ -12,8 +12,8 @@
  <div class="row justify-content-center">
   <div class="w3-container w3-center w3-animate-bottom">
   <a href="https://www.instagram.com/_gmmybear07_/" class="fa fa-instagram" target="_blank"></a>
-    <a href="https://github.com/GmmyBeAr07?tab=repositories" class="fa fa-github" target="_blank"></a>
-    <a href="https://www.facebook.com/daniel.wildfire.9/" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://github.com/GmmyBeAr07" class="fa fa-github" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/daniel-bowers-0122bb22b/" class="fa fa-linkedin" target="_blank"></a>
     <a href="https://za.pinterest.com/dwwildfire/" class="fa fa-pinterest" target="_blank"></a>
     <a href="https://account.microsoft.com/" class="fa fa-skype" target="_blank"></a>
   </div>

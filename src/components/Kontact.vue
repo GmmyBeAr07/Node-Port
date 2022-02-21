@@ -4,7 +4,7 @@
 
         <h2>Contact</h2>
 
-        <form id ="my_form" action="https://formspree.io/f/xpzknqlr" method="POST">
+          <form id ="my_form" action="https://formspree.io/f/xpzknqlr" method="POST" @submit.prevent="handleSubmit">
 
           <h1>Enter your details below:</h1>
 
@@ -12,12 +12,10 @@
             <div class="col-6">
               <input type="text" id="fname" name="fname" cols="50" placeholder="First Name:" required>
             </div>
-
             <div class="col-6">
               <input type="text" id="lname" name="lname" cols="50" placeholder="Last Name:" required>
             </div>
           </div>
-
            <div class="row">
             <div class="col-6">
               <input type="email" id="mail" name="mail" cols="50" placeholder="Email:" required>
@@ -27,20 +25,16 @@
           </div>
     </div>
 
+<!-- <input placeholder -->
               <textarea name="y_message" id="message" cols="50" rows="10" placeholder="Subject">
         </textarea>
 
-      <div id="buttons"> 
-      <button type="submit" class="beetn" value="submit">Submit</button>
-      <button type="reset" class="beetn">Reset</button>
-
-      </div>
-
-      </form>
-
-
-    </section>
-
+              <div id="buttons"> 
+              <button type="submit" class="beetn" value="submit">Submit</button>
+              <button type="reset" class="beetn">Reset</button>
+        </div>
+     </form>
+  </section>
 </template>
 
 <script>
@@ -50,7 +44,6 @@ export default {
 </script>
 
 <style>
-
 .row {
   padding-bottom: 50px;
 }
@@ -73,14 +66,13 @@ input {
   margin: auto;
 }
 
-
 form {
   background: rgba( 255, 255, 255, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 50%;
   margin: auto;
 }
